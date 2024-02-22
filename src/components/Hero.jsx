@@ -2,7 +2,7 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[60vh] md:h-[50vh] lg:h-[60vh] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,6 +16,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Masoud</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+
             Full Stack Developer | Cloud & <br className='sm:block hidden' />
             DevOps Enthusiast | AI Trainer
           </p>
