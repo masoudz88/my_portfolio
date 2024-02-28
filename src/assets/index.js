@@ -4,8 +4,7 @@ import web from "./web.png"
 import mobile from "./mobile.png"
 import creator from "./creator.png"
 import backend from "./backend.png"
-import celtx from "./company/celtx.jpeg"
-import scin from "./company/logo.png"
+import github from "./github.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +19,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
+import celtx from "./company/celtx.jpeg"
+import scin from "./company/logo.png"
+import cakeyhand from "./company/cakeyhand.png"
+
+import daycare from "./project/daycare.png"
+import waste from "./project/waste.png"
+
 export {
     logo,
     herobg,
@@ -29,6 +35,7 @@ export {
     backend,
     celtx,
     scin,
+    cakeyhand,
     css,
     docker,
     figma,
@@ -41,4 +48,7 @@ export {
     redux,
     tailwind,
     typescript,
+    daycare,
+    waste,
+    github
 }
