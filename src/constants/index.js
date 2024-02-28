@@ -19,7 +19,7 @@ import {
     figma,
     docker,
     daycare,
-    waste
+    waste,
   } from "../assets";
   
 
@@ -178,18 +178,18 @@ export const projects = [
     {
       name: "Waste Management",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that allows users to log into their account, select companies of interest, view products nearing expiration, and purchase them at reduced prices to minimize waste.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "sqlite",
+          name: "express.js",
           color: "green-text-gradient",
         },
         {
-          name: "nodejs",
+          name: "node.js",
           color: "pink-text-gradient",
         },
       ],

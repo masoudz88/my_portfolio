@@ -4,6 +4,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Tech from "./Tech";
 import Project from "./Project";
+import Contact from "./Contact";
 
 export {
   Hero,
@@ -11,5 +12,6 @@ export {
   About,
   Experience,
   Tech,
-  Project
+  Project,
+  Contact,
 };

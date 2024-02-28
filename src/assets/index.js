@@ -5,6 +5,7 @@ import mobile from "./mobile.png"
 import creator from "./creator.png"
 import backend from "./backend.png"
 import github from "./github.png"
+import video from "./video-camera.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -50,5 +51,6 @@ export {
     typescript,
     daycare,
     waste,
-    github
+    github,
+    video
 }
