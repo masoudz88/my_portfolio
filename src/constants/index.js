@@ -5,9 +5,11 @@ import {
     web,
     celtx,
     scin,
+    scaleai,
     cakeyhand,
     javascript,
     typescript,
+    python,
     html,
     css,
     reactjs,
@@ -74,7 +76,21 @@ export const experiences = [
         ],
     },
     {
-      title: "React.js Developer",
+      title: "AI Trainer and Code Review Analyst",
+      company_name: "Scale AI",
+      icon: scaleai,
+      iconBg: "#383E56",
+      date: "January 2024- Present",
+      points: [
+        "Craft complex code prompts to evaluate and test the capabilities of large language models (LLMs).",
+        "Analyze responses from AI models to assess their programming skill proficiency and accuracy.",
+        "Conduct detailed code reviews to ensure the quality and functionality of AI-generated code.",
+        "Rate and provide structured feedback on the performance of AI models in coding tasks.",
+        "Participate in continuous improvement initiatives to enhance AI model reliability and performance.",
+      ],
+    },
+    {
+      title: "Web Developer",
       company_name: "Celtx",
       icon: celtx,
       iconBg: "#383E56",
@@ -122,6 +138,10 @@ export const technologies = [
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "Redux Toolkit",

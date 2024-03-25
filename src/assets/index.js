@@ -19,10 +19,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import python from "./tech/python.png"
 
 import celtx from "./company/celtx.jpeg"
 import scin from "./company/logo.png"
 import cakeyhand from "./company/cakeyhand.png"
+import scaleai from "./company/scaleai.png"
 
 import daycare from "./project/daycare.png"
 import waste from "./project/waste.png"
@@ -37,10 +39,12 @@ export {
     celtx,
     scin,
     cakeyhand,
+    scaleai,
     css,
     docker,
     figma,
     git,
+    python,
     html,
     javascript,
     mongodb,
