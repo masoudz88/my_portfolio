@@ -7,6 +7,7 @@ import {
     scin,
     scaleai,
     cakeyhand,
+    vha,
     javascript,
     typescript,
     python,
@@ -60,23 +61,20 @@ export const services = [
 ];
 
 export const experiences = [
-    {
-        title: "Full stack Developer",
-        company_name: "SCIN Scientific Publishing",
-        icon: scin,
-        iconBg: "#E6DEDD",
-        date: "August 2023 - Present",
-        points: [
-            "Launched a startup's MVP, skyrocketing user engagement by 1000% via MERN stack and AWS CI/CD.",
-            "Doubled session times and increased page views by 50% with responsive design.",
-            "Cut deployment time by 30% and sped up delivery 25% with reusable code libraries.",
-            "Translated stakeholder needs to specs, enhancing feature integration and success.",
-            "Improved collaboration and efficiency with open-source version control strategies.",
-            
-        ],
+  {
+    title: "Software Developer",
+    company_name: "Voronoi Health Analytics",
+    icon: vha,
+    iconBg: "#383E56",
+    date: "April 2024- Present",
+    points: [
+      "Engineered a React/Redux and TypeScript-based image labelling tool to enhance image classification accuracy for machine learning model training and optimization.",
+      "Collaborated in the development of a desktop server application using Electron.js and Django to facilitate uploading medical images from hospital PACS servers to the application server, enhancing workflow efficiency and data integration.",
+      "Conducted comprehensive testing and debugging to ensure reliable application performance and user experience.",
+    ],
     },
     {
-      title: "AI Trainer and Code Review Analyst",
+      title: "Freelance AI Trainer and Code Review Analyst",
       company_name: "Scale AI",
       icon: scaleai,
       iconBg: "#383E56",
@@ -87,6 +85,21 @@ export const experiences = [
         "Conduct detailed code reviews to ensure the quality and functionality of AI-generated code.",
         "Rate and provide structured feedback on the performance of AI models in coding tasks.",
         "Participate in continuous improvement initiatives to enhance AI model reliability and performance.",
+      ],
+    },
+    {
+      title: "Full stack Developer",
+      company_name: "SCIN Scientific Publishing",
+      icon: scin,
+      iconBg: "#E6DEDD",
+      date: "June 2023 - January 2024",
+      points: [
+          "Launched a startup's MVP, skyrocketing user engagement by 1000% via MERN stack and AWS CI/CD.",
+          "Doubled session times and increased page views by 50% with responsive design.",
+          "Cut deployment time by 30% and sped up delivery 25% with reusable code libraries.",
+          "Translated stakeholder needs to specs, enhancing feature integration and success.",
+          "Improved collaboration and efficiency with open-source version control strategies.",
+          
       ],
     },
     {

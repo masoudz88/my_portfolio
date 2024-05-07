@@ -25,6 +25,7 @@ import celtx from "./company/celtx.jpeg"
 import scin from "./company/logo.png"
 import cakeyhand from "./company/cakeyhand.png"
 import scaleai from "./company/scaleai.png"
+import vha from "./company/vha.png"
 
 import daycare from "./project/daycare.png"
 import waste from "./project/waste.png"
@@ -40,6 +41,7 @@ export {
     scin,
     cakeyhand,
     scaleai,
+    vha,
     css,
     docker,
     figma,
