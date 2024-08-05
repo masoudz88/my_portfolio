@@ -30,7 +30,7 @@ const Contact = () => {
         <h2 className={`${styles.sectionHeadText}`}>Contact Me</h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-wrap justify-center gap-7">
+      <div className="mt-10 flex flex-wrap justify-center gap-7">
         <ContactInfo
           label="Email"
           value="masoudz@mun.ca"
