@@ -29,6 +29,7 @@ import vha from "./company/vha.png"
 
 import daycare from "./project/daycare.png"
 import waste from "./project/waste.png"
+import gigplus from "./project/gigplus.png"
 
 export {
     logo,
@@ -57,6 +58,7 @@ export {
     typescript,
     daycare,
     waste,
+    gigplus,
     github,
     video
 }

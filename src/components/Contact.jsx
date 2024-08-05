@@ -33,8 +33,8 @@ const Contact = () => {
       <div className="mt-20 flex flex-wrap justify-center gap-7">
         <ContactInfo
           label="Email"
-          value="massoudz88@gmail.com"
-          link="mailto:massoudz88@gmail.com"
+          value="masoudz@mun.ca"
+          link="mailto:masoudz@mun.ca"
         />
         <ContactInfo
           label="Linkedin"

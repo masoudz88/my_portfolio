@@ -23,6 +23,7 @@ import {
     docker,
     daycare,
     waste,
+    gigplus
   } from "../assets";
   
 
@@ -78,7 +79,7 @@ export const experiences = [
       company_name: "Scale AI",
       icon: scaleai,
       iconBg: "#383E56",
-      date: "January 2024- Present",
+      date: "January 2024- June 2024",
       points: [
         "Craft complex code prompts to evaluate and test the capabilities of large language models (LLMs).",
         "Analyze responses from AI models to assess their programming skill proficiency and accuracy.",
@@ -92,7 +93,7 @@ export const experiences = [
       company_name: "SCIN Scientific Publishing",
       icon: scin,
       iconBg: "#E6DEDD",
-      date: "June 2023 - January 2024",
+      date: "May 2023 - December 2024",
       points: [
           "Launched a startup's MVP, skyrocketing user engagement by 1000% via MERN stack and AWS CI/CD.",
           "Doubled session times and increased page views by 50% with responsive design.",
@@ -187,6 +188,27 @@ export const technologies = [
 ];
 
 export const projects = [
+    {
+      name: "Gigplus Analytics",
+      description:
+      "A mobile app that helps gig workers boost their income by providing analytics data based on their income and their expenses and showing them best time and places to work.",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AWS Lambda",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gigplus,
+      source_code_link: "https://youtu.be/pOqHOB0BwCw",
+    },
     {
       name: "CareConnect NL",
       description:
