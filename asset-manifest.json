@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.d0e8b881.css",
-    "main.js": "/my_portfolio/static/js/main.95667195.js",
+    "main.js": "/my_portfolio/static/js/main.a2831b4a.js",
     "static/js/453.acca0757.chunk.js": "/my_portfolio/static/js/453.acca0757.chunk.js",
     "static/media/waste.png": "/my_portfolio/static/media/waste.891a44514005b2f5be23.png",
+    "static/media/gigplus.png": "/my_portfolio/static/media/gigplus.99f2185d3f77a47fdddf.png",
     "static/media/herobg.png": "/my_portfolio/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/daycare.png": "/my_portfolio/static/media/daycare.1c2af8b54d04b5eb4880.png",
     "static/media/python.png": "/my_portfolio/static/media/python.c44b9b809ebf766cbb4f.png",
@@ -12,6 +13,7 @@
     "static/media/backend.png": "/my_portfolio/static/media/backend.08c8d93b8142c41a9e63.png",
     "static/media/video-camera.png": "/my_portfolio/static/media/video-camera.5dcab5f85124f894d82e.png",
     "static/media/scaleai.png": "/my_portfolio/static/media/scaleai.e1b22afc4f913fddb964.png",
+    "static/media/vha.png": "/my_portfolio/static/media/vha.584cdea85b5717557419.png",
     "static/media/celtx.jpeg": "/my_portfolio/static/media/celtx.0e69618113bc0b89aaa1.jpeg",
     "static/media/mobile.png": "/my_portfolio/static/media/mobile.15e7b89f1018dcdba6e7.png",
     "static/media/creator.png": "/my_portfolio/static/media/creator.f8923ce18390029928ac.png",
@@ -19,11 +21,11 @@
     "static/media/github.png": "/my_portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/my_portfolio/index.html",
     "main.d0e8b881.css.map": "/my_portfolio/static/css/main.d0e8b881.css.map",
-    "main.95667195.js.map": "/my_portfolio/static/js/main.95667195.js.map",
+    "main.a2831b4a.js.map": "/my_portfolio/static/js/main.a2831b4a.js.map",
     "453.acca0757.chunk.js.map": "/my_portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0e8b881.css",
-    "static/js/main.95667195.js"
+    "static/js/main.a2831b4a.js"
   ]
 }
