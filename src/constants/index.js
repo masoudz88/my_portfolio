@@ -93,7 +93,7 @@ export const experiences = [
       company_name: "SCIN Scientific Publishing",
       icon: scin,
       iconBg: "#E6DEDD",
-      date: "May 2023 - December 2024",
+      date: "September 2023 - April 2024",
       points: [
           "Launched a startup's MVP, skyrocketing user engagement by 1000% via MERN stack and AWS CI/CD.",
           "Doubled session times and increased page views by 50% with responsive design.",
