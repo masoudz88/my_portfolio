@@ -22,7 +22,6 @@ import {
     figma,
     docker,
     daycare,
-    waste,
     gigplus
   } from "../assets";
   
@@ -93,7 +92,7 @@ export const experiences = [
       company_name: "SCIN Scientific Publishing",
       icon: scin,
       iconBg: "#E6DEDD",
-      date: "September 2023 - April 2024",
+      date: "June 2023 - December 2024",
       points: [
           "Launched a startup's MVP, skyrocketing user engagement by 1000% via MERN stack and AWS CI/CD.",
           "Doubled session times and increased page views by 50% with responsive design.",
@@ -229,26 +228,5 @@ export const projects = [
       ],
       image: daycare,
       source_code_link: "https://www.youtube.com/watch?v=BKND9y68cUw",
-    },
-    {
-      name: "Waste Management",
-      description:
-        "A web application that allows users to log into their account, select companies of interest, view products nearing expiration, and purchase them at reduced prices to minimize waste.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "express.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "node.js",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: waste,
-      source_code_link: "https://www.loom.com/share/86d2fcf2dcea44b6b891d228f3e8222b?sid=cd82f597-125b-422c-9065-82cc0ef65003",
     },
 ];
