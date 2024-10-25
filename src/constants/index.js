@@ -74,7 +74,9 @@ export const experiences = [
     points: [
       "Engineered a React/Redux and TypeScript-based image labelling tool to enhance image classification accuracy for machine learning model training and optimization.",
       "Collaborated in the development of a desktop server application using Electron.js and Django to facilitate uploading medical images from hospital PACS servers to the application server, enhancing workflow efficiency and data integration.",
-      "Conducted comprehensive testing and debugging to ensure reliable application performance and user experience.",
+      "Engineered a scan classification model using a ResNet model in MATLAB, aimed at classifying medical images, further enhancing our capability in advanced image analysis.",
+      "Developed a desktop application in C++ with Qt, designed to display segmented medical images, contributing to our suite of tools for biomedical image analysis.",
+      "Collaborated with cross-functional teams, including data scientists and medical professionals, to understand project requirements and deliver tailored solutions.",
     ],
     },
     {
