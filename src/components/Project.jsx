@@ -1,11 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-import { styles } from "../styles";
 import { video } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn} from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -17,7 +14,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <div className='bg-white p-5 rounded-2xl sm:w-[360px] w-full'>
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -61,16 +58,12 @@ const ProjectCard = ({
 
 const Project = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+    <div className="w-full bg-[#6E07F3] py-8 px-4 sm:py-10 sm:px-10 mt-[60px] sm:mt-[100px] pt-[60px] sm:pt-[100px] sm:pb-[100px]" id="projects">
 
-      <div className='w-full flex'>
+      <div className='w-full flex justify-center items-center'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-4 text-[#FFF] text-[15px] sm:text-[20px] px-4 sm:px-[100px] text-center max-w-6xl leading-relaxed tracking-wide'
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -85,8 +78,8 @@ const Project = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
-export default SectionWrapper(Project, "");
+export default Project;

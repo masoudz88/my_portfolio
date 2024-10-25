@@ -1,25 +1,26 @@
 import { styles } from "../styles";
+import { developer } from "../assets";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-[85vh] mx-auto`}>
+    <section className={`relative w-full h-[85vh] mx-auto flex justify-center items-center sm:mt-[100px] mt-[50px]`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-        </div>
-
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Masoud</span>
+          <h1 className={`${styles.heroHeadText} text-primary text-center mt-10`}>
+            Hi, I'm <span className='text-[#6E07F3]'>Masoud</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-
-            Full Stack Developer | Cloud & <br className='sm:block hidden' />
-            DevOps Enthusiast | AI Trainer
+          <p className={`${styles.heroSubText} mt-10 text-primary text-center`}>
+            Full Stack Developer, Machine Learning Engineer & Mobile Application Developer
           </p>
+          <div className='flex justify-center items-center'>
+            <img
+              src={developer}
+              alt='developer'
+              className='w-60 h-60 object-contain mt-10'
+            />
+          </div>
         </div>
       </div>
     </section>

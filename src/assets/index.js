@@ -30,6 +30,7 @@ import vha from "./company/vha.png"
 import daycare from "./project/daycare.png"
 import waste from "./project/waste.png"
 import gigplus from "./project/gigplus.png"
+import developer from "./developer.png"
 
 export {
     logo,
@@ -60,5 +61,6 @@ export {
     waste,
     gigplus,
     github,
-    video
+    video,
+    developer
 }

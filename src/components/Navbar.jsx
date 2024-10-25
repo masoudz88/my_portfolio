@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex items-center fixed top-0 z-20 shadow-md ${
+        scrolled ? "bg-[#FFF]" : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -42,11 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Masoud &nbsp;
-            <span className='sm:block hidden'> | Software Development Portfolio</span>
-          </p>
+          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -54,8 +50,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-[#6E07F3]" : "text-[#000]"
+              } hover:text-[#6E07F3] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -75,7 +71,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "text-[#FFF]" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
