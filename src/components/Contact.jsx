@@ -5,7 +5,7 @@ import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
 
 const ContactInfo = ({ label, value, link }) => {
   return (
-    <div className="bg-secondary p-5 sm:mx-5 mx-2 rounded-2xl sm:w-[360px] w-full sm:my-4 my-2">
+    <div className="bg-secondary p-5 sm:mx-5 mx-2 rounded-2xl sm:w-[360px] w-full sm:my-4 my-2 shadow-card">
       <motion.div variants={fadeIn("up")}>
         <h3 className="text-white font-bold text-[20px]">{label}</h3>
         <a

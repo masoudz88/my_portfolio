@@ -78,6 +78,11 @@ const Project = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <div className="flex justify-center items-center mt-10 bg-transparent text-[#FFF] pt-4 rounded-md underline text-[18px] hover:text-[#CCCCCC] transition-all duration-300">
+        <a href="https://github.com/masoudz88?tab=repositories" target="_blank" rel="noopener noreferrer">
+            Explore More
+        </a>
+      </div>
     </div>
   );
 };

@@ -21,7 +21,7 @@ const ExperienceCard = ({ index, experience }) => {
       variants={cardVariants}
       className="xs:w-[450px] w-full mx-auto"
     >
-      <div className='w-full p-2 bg-white rounded-[20px] shadow-lg overflow-hidden'>
+      <div className='w-full p-2 bg-secondary rounded-[20px] shadow-card overflow-hidden'>
         <div className='bg-secondary rounded-[20px] p-4 flex flex-col justify-between h-full'>
           <div className="flex items-center space-x-3">
             <img src={experience.icon} alt={experience.company_name} className="w-12 h-12 rounded-full border-4 border-white shadow-sm object-cover" />
@@ -31,7 +31,7 @@ const ExperienceCard = ({ index, experience }) => {
             </div>
           </div>
           <p className="text-sm text-[#D3D3D3] mt-2 pl-5">{experience.date}</p>
-          <ul className='list-disc space-y-2 pl-5 text-white mt-4'>
+          <ul className='list-disc space-y-2 pl-5 text-white my-4'>
             {experience.points.map((point, idx) => (
               <li key={`experience-point-${idx}`} className='text-sm'>
                 {point}

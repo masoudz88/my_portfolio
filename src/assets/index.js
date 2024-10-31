@@ -1,4 +1,4 @@
-import logo from "./logo.jpeg"
+import logo from "./logo.png"
 import herobg from "./herobg.png"
 import web from "./web.png"
 import mobile from "./mobile.png"
