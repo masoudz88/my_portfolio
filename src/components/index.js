@@ -5,6 +5,8 @@ import Experience from "./Experience";
 import Tech from "./Tech";
 import Project from "./Project";
 import Contact from "./Contact";
+import Chatbot from "./chatbot/Chatbot";
+import ChatbotOpen from "./chatbot/ChatbotOpen";
 
 export {
   Hero,
@@ -14,4 +16,6 @@ export {
   Tech,
   Project,
   Contact,
+  Chatbot,
+  ChatbotOpen,
 };
